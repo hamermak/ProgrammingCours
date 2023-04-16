@@ -1,8 +1,8 @@
 #include <assert.h>
 #include <malloc.h>
 
-#include "C:\Program Files\JetBrains\CLion 2023.1.1\libs\data_structures\vector\vector.h"
-#include "C:\Program Files\JetBrains\CLion 2023.1.1\libs\data_structures\vector\vectorVoid.h"
+#include "libs\data_structures\vector\vector.h"
+#include "libs\data_structures\vector\vectorVoid.h"
 
 
 void test_pushBack_emptyVector() {
@@ -244,6 +244,7 @@ void test() {
     test_atVector_requestToLastElement();
     test_back_oneElementInVector();
     test_front_oneElementInVector();
+
     test_pushBackV_emptyVector();
     test_pushBackV_fullVector();
     test_popBackV_notEmptyVector();
