@@ -244,7 +244,6 @@ void test() {
     test_atVector_requestToLastElement();
     test_back_oneElementInVector();
     test_front_oneElementInVector();
-
     test_pushBackV_emptyVector();
     test_pushBackV_fullVector();
     test_popBackV_notEmptyVector();
